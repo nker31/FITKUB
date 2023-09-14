@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		512703EC29FD2FE500792F7A /* EnableHealthKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512703EB29FD2FE500792F7A /* EnableHealthKitView.swift */; };
+		514CEC1A29FE675900781EBB /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514CEC1929FE675900781EBB /* StartView.swift */; };
+		514CEC1C29FE795F00781EBB /* PersonalDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514CEC1B29FE795F00781EBB /* PersonalDataView.swift */; };
+		514CEC2229FE822900781EBB /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514CEC2129FE822900781EBB /* GreetingView.swift */; };
+		515E9A0B29FD862D00900B21 /* FoodDiaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515E9A0A29FD862D00900B21 /* FoodDiaryModel.swift */; };
+		515E9A0D29FD870300900B21 /* FoodDiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515E9A0C29FD870300900B21 /* FoodDiaryViewModel.swift */; };
+		5181FE0229FD009D0035DA55 /* FITKUBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE0129FD009D0035DA55 /* FITKUBApp.swift */; };
+		5181FE0429FD009D0035DA55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE0329FD009D0035DA55 /* ContentView.swift */; };
+		5181FE0629FD009F0035DA55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5181FE0529FD009F0035DA55 /* Assets.xcassets */; };
+		5181FE0929FD009F0035DA55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5181FE0829FD009F0035DA55 /* Preview Assets.xcassets */; };
+		5181FE0B29FD009F0035DA55 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE0A29FD009F0035DA55 /* Persistence.swift */; };
+		5181FE0E29FD009F0035DA55 /* FITKUB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE0C29FD009F0035DA55 /* FITKUB.xcdatamodeld */; };
+		5181FE1829FD01770035DA55 /* TDEEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE1729FD01770035DA55 /* TDEEModel.swift */; };
+		5181FE1A29FD019B0035DA55 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE1929FD019B0035DA55 /* UserDataModel.swift */; };
+		5181FE1C29FD01C30035DA55 /* UserDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE1B29FD01C30035DA55 /* UserDataViewModel.swift */; };
+		5181FE2A29FD02220035DA55 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE2329FD02220035DA55 /* ProfileView.swift */; };
+		5181FE2B29FD02220035DA55 /* FoodDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE2429FD02220035DA55 /* FoodDiaryView.swift */; };
+		5181FE2C29FD02220035DA55 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE2529FD02220035DA55 /* HomeView.swift */; };
+		5181FE3229FD0FCC0035DA55 /* TDEECalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE2F29FD0FCB0035DA55 /* TDEECalView.swift */; };
+		5181FE3329FD0FCC0035DA55 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE3029FD0FCB0035DA55 /* AddFoodView.swift */; };
+		5181FE3429FD0FCC0035DA55 /* BMICalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE3129FD0FCB0035DA55 /* BMICalView.swift */; };
+		5181FE3729FD106F0035DA55 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE3629FD106F0035DA55 /* HealthKitManager.swift */; };
+		5181FE3929FD109D0035DA55 /* HealthKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE3829FD109D0035DA55 /* HealthKitViewModel.swift */; };
+		5181FE4129FD15860035DA55 /* WeightProgessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE4029FD15860035DA55 /* WeightProgessView.swift */; };
+		5181FE4329FD15B20035DA55 /* TDEEResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181FE4229FD15B20035DA55 /* TDEEResultView.swift */; };
+		5186BC4129FE4A5E00430F26 /* AddWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5186BC4029FE4A5E00430F26 /* AddWeightView.swift */; };
+		51CCB5832A000F7C002CC258 /* FKLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CCB5822A000F7C002CC258 /* FKLaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		512703EB29FD2FE500792F7A /* EnableHealthKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableHealthKitView.swift; sourceTree = "<group>"; };
+		514CEC1929FE675900781EBB /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		514CEC1B29FE795F00781EBB /* PersonalDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataView.swift; sourceTree = "<group>"; };
+		514CEC2129FE822900781EBB /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		515E9A0A29FD862D00900B21 /* FoodDiaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDiaryModel.swift; sourceTree = "<group>"; };
+		515E9A0C29FD870300900B21 /* FoodDiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDiaryViewModel.swift; sourceTree = "<group>"; };
+		5181FDFE29FD009D0035DA55 /* FITKUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FITKUB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5181FE0129FD009D0035DA55 /* FITKUBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FITKUBApp.swift; sourceTree = "<group>"; };
+		5181FE0329FD009D0035DA55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5181FE0529FD009F0035DA55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5181FE0829FD009F0035DA55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5181FE0A29FD009F0035DA55 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5181FE0D29FD009F0035DA55 /* FITKUB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FITKUB.xcdatamodel; sourceTree = "<group>"; };
+		5181FE1729FD01770035DA55 /* TDEEModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDEEModel.swift; sourceTree = "<group>"; };
+		5181FE1929FD019B0035DA55 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		5181FE1B29FD01C30035DA55 /* UserDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewModel.swift; sourceTree = "<group>"; };
+		5181FE2329FD02220035DA55 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5181FE2429FD02220035DA55 /* FoodDiaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDiaryView.swift; sourceTree = "<group>"; };
+		5181FE2529FD02220035DA55 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5181FE2F29FD0FCB0035DA55 /* TDEECalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDEECalView.swift; sourceTree = "<group>"; };
+		5181FE3029FD0FCB0035DA55 /* AddFoodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		5181FE3129FD0FCB0035DA55 /* BMICalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMICalView.swift; sourceTree = "<group>"; };
+		5181FE3529FD10030035DA55 /* FITKUB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FITKUB.entitlements; sourceTree = "<group>"; };
+		5181FE3629FD106F0035DA55 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		5181FE3829FD109D0035DA55 /* HealthKitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitViewModel.swift; sourceTree = "<group>"; };
+		5181FE4029FD15860035DA55 /* WeightProgessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightProgessView.swift; sourceTree = "<group>"; };
+		5181FE4229FD15B20035DA55 /* TDEEResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDEEResultView.swift; sourceTree = "<group>"; };
+		5186BC4029FE4A5E00430F26 /* AddWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightView.swift; sourceTree = "<group>"; };
+		51CCB5822A000F7C002CC258 /* FKLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FKLaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5181FDFB29FD009D0035DA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5181FDF529FD009D0035DA55 = {
+			isa = PBXGroup;
+			children = (
+				5181FE0029FD009D0035DA55 /* FITKUB */,
+				5181FDFF29FD009D0035DA55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5181FDFF29FD009D0035DA55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5181FDFE29FD009D0035DA55 /* FITKUB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5181FE0029FD009D0035DA55 /* FITKUB */ = {
+			isa = PBXGroup;
+			children = (
+				5181FE3529FD10030035DA55 /* FITKUB.entitlements */,
+				5181FE0129FD009D0035DA55 /* FITKUBApp.swift */,
+				5181FE0329FD009D0035DA55 /* ContentView.swift */,
+				5181FE1429FD011F0035DA55 /* Model */,
+				5181FE1529FD01370035DA55 /* View */,
+				5181FE1629FD01430035DA55 /* ViewModel */,
+				5181FE0529FD009F0035DA55 /* Assets.xcassets */,
+				5181FE0A29FD009F0035DA55 /* Persistence.swift */,
+				5181FE0C29FD009F0035DA55 /* FITKUB.xcdatamodeld */,
+				51CCB5822A000F7C002CC258 /* FKLaunchScreen.storyboard */,
+				5181FE0729FD009F0035DA55 /* Preview Content */,
+			);
+			path = FITKUB;
+			sourceTree = "<group>";
+		};
+		5181FE0729FD009F0035DA55 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5181FE0829FD009F0035DA55 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5181FE1429FD011F0035DA55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5181FE1729FD01770035DA55 /* TDEEModel.swift */,
+				5181FE1929FD019B0035DA55 /* UserDataModel.swift */,
+				5181FE3629FD106F0035DA55 /* HealthKitManager.swift */,
+				515E9A0A29FD862D00900B21 /* FoodDiaryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5181FE1529FD01370035DA55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				514CEC1929FE675900781EBB /* StartView.swift */,
+				514CEC2129FE822900781EBB /* GreetingView.swift */,
+				512703EB29FD2FE500792F7A /* EnableHealthKitView.swift */,
+				5181FE4029FD15860035DA55 /* WeightProgessView.swift */,
+				514CEC1B29FE795F00781EBB /* PersonalDataView.swift */,
+				5181FE4229FD15B20035DA55 /* TDEEResultView.swift */,
+				5181FE2229FD02220035DA55 /* TabView */,
+				5181FE2E29FD0FCB0035DA55 /* InputView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5181FE1629FD01430035DA55 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5181FE1B29FD01C30035DA55 /* UserDataViewModel.swift */,
+				5181FE3829FD109D0035DA55 /* HealthKitViewModel.swift */,
+				515E9A0C29FD870300900B21 /* FoodDiaryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5181FE2229FD02220035DA55 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				5181FE2529FD02220035DA55 /* HomeView.swift */,
+				5181FE2429FD02220035DA55 /* FoodDiaryView.swift */,
+				5181FE2329FD02220035DA55 /* ProfileView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		5181FE2E29FD0FCB0035DA55 /* InputView */ = {
+			isa = PBXGroup;
+			children = (
+				5181FE2F29FD0FCB0035DA55 /* TDEECalView.swift */,
+				5181FE3029FD0FCB0035DA55 /* AddFoodView.swift */,
+				5181FE3129FD0FCB0035DA55 /* BMICalView.swift */,
+				5186BC4029FE4A5E00430F26 /* AddWeightView.swift */,
+			);
+			path = InputView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5181FDFD29FD009D0035DA55 /* FITKUB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5181FE1129FD009F0035DA55 /* Build configuration list for PBXNativeTarget "FITKUB" */;
+			buildPhases = (
+				5181FDFA29FD009D0035DA55 /* Sources */,
+				5181FDFB29FD009D0035DA55 /* Frameworks */,
+				5181FDFC29FD009D0035DA55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FITKUB;
+			productName = FITKUB;
+			productReference = 5181FDFE29FD009D0035DA55 /* FITKUB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5181FDF629FD009D0035DA55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5181FDFD29FD009D0035DA55 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 5181FDF929FD009D0035DA55 /* Build configuration list for PBXProject "FITKUB" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5181FDF529FD009D0035DA55;
+			productRefGroup = 5181FDFF29FD009D0035DA55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5181FDFD29FD009D0035DA55 /* FITKUB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5181FDFC29FD009D0035DA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51CCB5832A000F7C002CC258 /* FKLaunchScreen.storyboard in Resources */,
+				5181FE0929FD009F0035DA55 /* Preview Assets.xcassets in Resources */,
+				5181FE0629FD009F0035DA55 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5181FDFA29FD009D0035DA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5181FE3429FD0FCC0035DA55 /* BMICalView.swift in Sources */,
+				515E9A0B29FD862D00900B21 /* FoodDiaryModel.swift in Sources */,
+				5181FE2C29FD02220035DA55 /* HomeView.swift in Sources */,
+				5181FE1C29FD01C30035DA55 /* UserDataViewModel.swift in Sources */,
+				5181FE2B29FD02220035DA55 /* FoodDiaryView.swift in Sources */,
+				512703EC29FD2FE500792F7A /* EnableHealthKitView.swift in Sources */,
+				5181FE3229FD0FCC0035DA55 /* TDEECalView.swift in Sources */,
+				5181FE3729FD106F0035DA55 /* HealthKitManager.swift in Sources */,
+				5181FE2A29FD02220035DA55 /* ProfileView.swift in Sources */,
+				514CEC2229FE822900781EBB /* GreetingView.swift in Sources */,
+				5181FE3329FD0FCC0035DA55 /* AddFoodView.swift in Sources */,
+				5181FE1A29FD019B0035DA55 /* UserDataModel.swift in Sources */,
+				514CEC1C29FE795F00781EBB /* PersonalDataView.swift in Sources */,
+				5181FE4329FD15B20035DA55 /* TDEEResultView.swift in Sources */,
+				515E9A0D29FD870300900B21 /* FoodDiaryViewModel.swift in Sources */,
+				5181FE4129FD15860035DA55 /* WeightProgessView.swift in Sources */,
+				514CEC1A29FE675900781EBB /* StartView.swift in Sources */,
+				5181FE3929FD109D0035DA55 /* HealthKitViewModel.swift in Sources */,
+				5186BC4129FE4A5E00430F26 /* AddWeightView.swift in Sources */,
+				5181FE0E29FD009F0035DA55 /* FITKUB.xcdatamodeld in Sources */,
+				5181FE1829FD01770035DA55 /* TDEEModel.swift in Sources */,
+				5181FE0B29FD009F0035DA55 /* Persistence.swift in Sources */,
+				5181FE0429FD009D0035DA55 /* ContentView.swift in Sources */,
+				5181FE0229FD009D0035DA55 /* FITKUBApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5181FE0F29FD009F0035DA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5181FE1029FD009F0035DA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5181FE1229FD009F0035DA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FITKUB/FITKUB.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FITKUB/Preview Content\"";
+				DEVELOPMENT_TEAM = R65DGBTB2J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow this app to access your Health data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Allow this app to write Health data based on your progress.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = FKLaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.FITKUB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5181FE1329FD009F0035DA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FITKUB/FITKUB.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FITKUB/Preview Content\"";
+				DEVELOPMENT_TEAM = R65DGBTB2J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow this app to access your Health data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Allow this app to write Health data based on your progress.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = FKLaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.bu.FITKUB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5181FDF929FD009D0035DA55 /* Build configuration list for PBXProject "FITKUB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5181FE0F29FD009F0035DA55 /* Debug */,
+				5181FE1029FD009F0035DA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5181FE1129FD009F0035DA55 /* Build configuration list for PBXNativeTarget "FITKUB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5181FE1229FD009F0035DA55 /* Debug */,
+				5181FE1329FD009F0035DA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5181FE0C29FD009F0035DA55 /* FITKUB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5181FE0D29FD009F0035DA55 /* FITKUB.xcdatamodel */,
+			);
+			currentVersion = 5181FE0D29FD009F0035DA55 /* FITKUB.xcdatamodel */;
+			path = FITKUB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5181FDF629FD009D0035DA55 /* Project object */;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22A400" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Food" representedClassName="Food" syncable="YES" codeGenerationType="class">
+        <attribute name="addedDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="foodCal" optional="YES" attributeType="String"/>
+        <attribute name="foodCarb" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="foodFat" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="foodName" optional="YES" attributeType="String"/>
+        <attribute name="foodProtein" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="FoodDiary" representedClassName="FoodDiary" syncable="YES" codeGenerationType="class">
+        <attribute name="foodDiaryBurendCal" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="foodDiaryDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="foodDiaryGoalCal" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="foodDiaryRemainCal" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="foodDiaryTotalCal" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="foodDiaryTotalCarb" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="foodDiaryTotalFat" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="foodDiaryTotalProtein" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="StepDiary" representedClassName="StepDiary" syncable="YES" codeGenerationType="class">
+        <attribute name="stepBurned" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="stepDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="stepTotal" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WeightDiary" representedClassName="WeightDiary" syncable="YES" codeGenerationType="class">
+        <attribute name="weightAddedDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="weightCurrent" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+</model>
